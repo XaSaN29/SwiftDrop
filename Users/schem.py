@@ -4,7 +4,7 @@ from fastapi_jwt_auth import AuthJWT
 
 
 class Settings(BaseModel):
-    authjwt_secret_key: str = "supersecretkey"
+    authjwt_secret_key: str = "secretkey"
 
 
 @AuthJWT.load_config
